@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../components/Card';
 import { server } from '../config';
 import styles from '../styles/Home.module.css';
-
+import data from '../data';
 const characters = ({ characters }) => {
   console.log(characters);
   return (
@@ -10,7 +10,7 @@ const characters = ({ characters }) => {
       <h1 className={styles.titletext}>Characters</h1>
       <h3 className={styles.subtitletext}>Humans</h3>
       <div className={styles.dflex}>
-        {characters[0].map((human, index) => (
+        {data[0].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -20,7 +20,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Droids</h3>
       <div className={styles.dflex}>
-        {characters[1].map((human, index) => (
+        {data[1].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -30,7 +30,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Wookie</h3>
       <div className={styles.dflex}>
-        {characters[2].map((human, index) => (
+        {data[2].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -40,7 +40,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Rodian</h3>
       <div className={styles.dflex}>
-        {characters[3].map((human, index) => (
+        {data[3].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -50,7 +50,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Hutt</h3>
       <div className={styles.dflex}>
-        {characters[4].map((human, index) => (
+        {data[4].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -60,7 +60,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Yoda's species</h3>
       <div className={styles.dflex}>
-        {characters[5].map((human, index) => (
+        {data[5].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -70,7 +70,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Trandoshan</h3>
       <div className={styles.dflex}>
-        {characters[6].map((human, index) => (
+        {data[6].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -80,7 +80,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Mon Calamari</h3>
       <div className={styles.dflex}>
-        {characters[7].map((human, index) => (
+        {data[7].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -90,7 +90,7 @@ const characters = ({ characters }) => {
       </div>
       <h3 className={styles.subtitletext}>Ewok</h3>
       <div className={styles.dflex}>
-        {characters[8].map((human, index) => (
+        {data[8].map((human, index) => (
           <Card
             key={index}
             info={human}
@@ -102,16 +102,16 @@ const characters = ({ characters }) => {
   );
 };
 
-export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/characters/`);
-  const characters = await res.json();
+// export const getStaticProps = async () => {
+//   const res = await fetch(`${server}/api/characters/`);
+//   const characters = await res.json();
 
-  return {
-    props: {
-      characters,
-    },
-  };
-};
+//   return {
+//     props: {
+//       characters,
+//     },
+//   };
+// };
 
 // export const getStaticProps = async () => {
 //     const res = await fetch('https://www.swapi.tech/api/species/');
