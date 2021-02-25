@@ -1,7 +1,7 @@
-import React from "react";
-import Card from "../components/Card";
-import { server } from "../config";
-import styles from "../styles/Home.module.css";
+import React from 'react';
+import Card from '../components/Card';
+import { server } from '../config';
+import styles from '../styles/Home.module.css';
 
 const characters = ({ characters }) => {
   console.log(characters);
@@ -14,7 +14,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -24,7 +24,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -34,7 +34,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -44,7 +44,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -54,7 +54,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -64,7 +64,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -74,7 +74,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -84,7 +84,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
@@ -94,7 +94,7 @@ const characters = ({ characters }) => {
           <Card
             key={index}
             info={human}
-            image="https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256"
+            image='https://lumiere-a.akamaihd.net/v1/images/Obi-Wan-Kenobi_6d775533.jpeg?region=0%2C0%2C1536%2C864&width=256'
           ></Card>
         ))}
       </div>
